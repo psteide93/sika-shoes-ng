@@ -23,7 +23,7 @@ export class ProductPageComponent {
   }
 
   getProduct(){
-    this.productsService.getProductsById(this.id)
+    this.productsService.getProductById(this.id)
     .subscribe(response => this.product = response)
   }
 
