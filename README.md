@@ -1,6 +1,6 @@
 # Sika Shoes: Routing and Services
 
-### Deployed Link
+### Deployed Link:
 https://rococo-gingersnap-6f347a.netlify.app
 
 ![Shoe store](sika-shoes.png)
