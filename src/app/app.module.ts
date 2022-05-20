@@ -9,6 +9,7 @@ import {ProductPageComponent} from "./product-page/product-page.component";
 import {ProductsPageComponent} from "./products-page/products-page.component";
 import {NavBarComponent} from "./nav-bar/nav-bar.component";
 import {ProductListingComponent} from "./product-listing/product-listing.component";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {ProductListingComponent} from "./product-listing/product-listing.compone
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
